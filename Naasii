@@ -1,0 +1,8 @@
+#Gaame Settings
+
+winning_score = 20
+players = []
+scores = []
+
+#   How the game is set up 
+print("Welcome to  Naasii")
