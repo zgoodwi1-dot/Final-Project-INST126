@@ -4,6 +4,8 @@ import random
 print("WELCOME TO MY NAASII GAME")
 goal = 20
 
+# Choose a number 1-12 set it aside
+
 name_1 = input("Player 1 Name: ")
 name_2 = input("Player 2 Name: ")
 
@@ -20,7 +22,7 @@ score_2 = 0
     
     print("Rolls:", roll1, roll1, roll1)
 
-# Choose a number 1-12 set it aside
+
 
  # Second roll with 4 white die
 
@@ -33,3 +35,17 @@ score_2 = 0
 # Roll 1 black die with the white die and cancel out the white die if it matches the black die.
 
     roll2 = random.randint(1, 12)
+
+ # Third roll with another two white die and another black die
+
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+   
+    # Third rolls 2 black die 
+
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
