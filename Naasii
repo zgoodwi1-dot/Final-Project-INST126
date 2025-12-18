@@ -11,3 +11,23 @@ score_1 = 0
 score_2 = 0
 
 # How the game works
+while score_1 < goal and score_2 < goal:
+    
+    # Player 1 turn
+    input("\n" + name_1 + ", press Enter to roll!")
+    
+    # Roll the 12 dice and count how nmany are 6
+    roll1 = random.randint(1, 12)
+    roll2 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll5 = random.randint(1, 12)
+    roll6 = random.randint(1, 12)
+    roll7 = random.randint(1, 12)
+    roll8 = random.randint(1, 12)
+    roll9 = random.randint(1, 12)
+    roll10 = random.randint(1, 12)
+    roll11 = random.randint(1, 12)
+    roll12 = random.randint(1, 12)
+    
+    print("Rolls:", roll1, roll2, roll3, roll4, roll5, roll6, roll7, roll8, roll9, roll10, roll11, roll12)
