@@ -6,3 +6,8 @@ goal = 20
 
 name_1 = input("Player 1 Name: ")
 name_2 = input("Player 2 Name: ")
+
+score_1 = 0
+score_2 = 0
+
+# How the game works
