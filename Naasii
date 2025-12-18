@@ -50,3 +50,20 @@ score_2 = 0
 
     roll3 = random.randint(1, 12)
     roll3 = random.randint(1, 12)
+
+
+# 4th roll
+
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+    
+    # fourth rolls black die
+
+    roll4 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
+
