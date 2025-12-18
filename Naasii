@@ -6,3 +6,18 @@ goal = 20
 
 name_1 = input("Player 1 Name: ")
 name_2 = input("Player 2 Name: ")
+
+score_1 = 0
+score_2 = 0
+
+ # Player 1 turn
+    input("\n" + name_1 + ", press Enter to roll!")
+
+   # Roll the  3 white die
+    roll1 = random.randint(1, 12)
+    roll1 = random.randint(1, 12)
+    roll1 = random.randint(1, 12)
+    
+    print("Rolls:", roll1, roll1, roll1)
+
+# Choose a number 1-12 set it aside
