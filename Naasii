@@ -1,8 +1,8 @@
-#Gaame Settings
+import random
 
-winning_score = 20
-players = []
-scores = []
+# Setup
+print("WELCOME TO MY NAASII GAME")
+goal = 20
 
-#   How the game is set up 
-print("Welcome to  Naasii")
+name_1 = input("Player 1 Name: ")
+name_2 = input("Player 2 Name: ")
