@@ -30,3 +30,6 @@ score_2 = 0
     roll2 = random.randint(1, 12)
 
 
+# Roll 1 black die with the white die and cancel out the white die if it matches the black die.
+
+    roll2 = random.randint(1, 12)
