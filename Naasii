@@ -2,7 +2,8 @@ import random
 
 # Setup
 print("WELCOME TO MY NAASII GAME")
-goal = 20
+
+Goal = Most points
 
 # Choose a number 1-12 set it aside
 
