@@ -67,3 +67,57 @@ score_2 = 0
     roll4 = random.randint(1, 12)
     roll4 = random.randint(1, 12)
 
+# Check the die to see what it rolled and add to the count for the player
+    if roll1 == 1: score_1 = score_1 + 1
+    if roll1 == 2: score_1 = score_1 + 2
+    if roll1 == 3: score_1 = score_1 + 3
+    if roll1 == 4: score_1 = score_1 + 4
+    if roll1 == 5: score_1 = score_1 + 5
+    if roll1 == 6: score_1 = score_1 + 6
+    if roll1 == 7: score_1 = score_1 + 7
+    if roll1 == 8: score_1 = score_1 + 8
+    if roll1 == 9: score_1 = score_1 + 9
+    if roll1 == 10: score_1 = score_1 + 10
+    if roll1 == 11: score_1 = score_1 + 11
+    if roll1 == 12: score_1 = score_1 + 12
+
+    if roll2 == 1: score_1 = score_1 + 1
+    if roll2 == 2: score_1 = score_1 + 2
+    if roll2 == 3: score_1 = score_1 + 3
+    if roll2 == 4: score_1 = score_1 + 4
+    if roll2 == 5: score_1 = score_1 + 5
+    if roll2 == 6: score_1 = score_1 + 6
+    if roll2 == 7: score_1 = score_1 + 7
+    if roll2 == 8: score_1 = score_1 + 8
+    if roll2 == 9: score_1 = score_1 + 9
+    if roll2 == 10: score_1 = score_1 + 10
+    if roll2 == 11: score_1 = score_1 + 11
+    if roll2 == 12: score_1 = score_1 + 12
+    
+    if roll3 == 1: score_1 = score_1 + 1
+    if roll3 == 2: score_1 = score_1 + 2
+    if roll3 == 3: score_1 = score_1 + 3
+    if roll3 == 4: score_1 = score_1 + 4
+    if roll3 == 5: score_1 = score_1 + 5
+    if roll3 == 6: score_1 = score_1 + 6
+    if roll3 == 7: score_1 = score_1 + 7
+    if roll3 == 8: score_1 = score_1 + 8
+    if roll3 == 9: score_1 = score_1 + 9
+    if roll3 == 10: score_1 = score_1 + 10
+    if roll3 == 11: score_1 = score_1 + 11
+    if roll3 == 12: score_1 = score_1 + 12
+
+    if roll4 == 1: score_1 = score_1 + 1
+    if roll4 == 2: score_1 = score_1 + 2
+    if roll4 == 3: score_1 = score_1 + 3
+    if roll4 == 4: score_1 = score_1 + 4
+    if roll4 == 5: score_1 = score_1 + 5
+    if roll4 == 6: score_1 = score_1 + 6
+    if roll4 == 7: score_1 = score_1 + 7
+    if roll4 == 8: score_1 = score_1 + 8
+    if roll4 == 9: score_1 = score_1 + 9
+    if roll4 == 10: score_1 = score_1 + 10
+    if roll4 == 11: score_1 = score_1 + 11
+    if roll4 == 12: score_1 = score_1 + 12
+    
+    print(name_1 + "'s Total Score: " + str(score_1))
