@@ -235,3 +235,13 @@ print("Rolls:", roll1, roll2, roll3, roll4) #show what the player rolled for the
 
 print(name_2 + "'s Total Score: " + str(score_2))
 
+
+# Calculate who won 
+if score_1 > score_2:
+    print(name_1, "WINS!")
+    
+if score_2 > score_1:
+    print(name_2, "WINS!")
+
+if score_1 == score_2:
+    print("IT IS A TIE!")
