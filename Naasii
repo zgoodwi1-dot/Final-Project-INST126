@@ -3,7 +3,7 @@ import random
 # Setup
 print("WELCOME TO MY NAASII GAME")
 
-Goal = Most points
+total_rounds = 4
 
 # Choose a number 1-12 set it aside
 
