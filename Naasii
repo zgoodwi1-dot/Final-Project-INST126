@@ -150,3 +150,16 @@ score_2 = 0
     # Roll 1 black die with the white die and cancel out the white die if it matches the black die.
 
     roll2 = random.randint(1, 12)
+# Third roll with another two white die and another black die
+
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+   
+    # Third rolls 2 black die 
+
+    roll3 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
