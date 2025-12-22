@@ -15,9 +15,9 @@ person in the 4 rolls that you are given with multiple 12 sided die!
 # NAASII Game instructions
 
 1. Enter the code under this file name: Naasii
-2. Press "Enter" to start the game where you will then enter the name for player 1, then press enter again to enter the name for player 2.
-3. Player 1 will roll first by following the directions that will be displayed (Press Enter to play, move on, and or roll).
-4. It will then be player 2's turn and they will complete the same steps (press enter to roll).
+2. # Game setup. Press "Enter" to start the game where you will then enter the name for player 1. You will then press enter again to enter the name for player 2.
+3. # Player 1 rolls. Player 1 will roll first by following the directions that will be displayed # Dice roll function.(Press Enter to play, move on, and or roll).
+4. # Player 2 rolls. It will then be player 2's turn and they will complete the same steps (press enter to roll).
 5. Follow the instructions provided on the screen untill the winner is announced!
 6. Good luck and have fun! May the luckiest player win!
  
