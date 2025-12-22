@@ -14,59 +14,25 @@ name_2 = input("Player 2 Name: ")
 score_1 = 0
 score_2 = 0
 
- # Player 1 turn
-    input("\n" + name_1 + ", press Enter to roll!")
-
-   # Roll the  3 white die
-    roll1 = random.randint(1, 12)
-    roll1 = random.randint(1, 12)
-    roll1 = random.randint(1, 12)
+ for round_number in range(1, total_rounds + 1):
+    print("\nROUND " + str(round_number) + " START")
     
-    print("Rolls:", roll1, roll1, roll1)
-
-
-
- # Second roll with 4 white die
-
+    # Player 1 rolls 
+    input(name_1 + ", press Enter to roll!")
+    
+    # Dice roll function 
+    roll1 = random.randint(1, 12)
     roll2 = random.randint(1, 12)
-    roll2 = random.randint(1, 12)
-    roll2 = random.randint(1, 12)
-    roll2 = random.randint(1, 12)
-
-
-# Roll 1 black die with the white die and cancel out the white die if it matches the black die.
-
-    roll2 = random.randint(1, 12)
-
- # Third roll with another two white die and another black die
-
     roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-   
-    # Third rolls 2 black die 
-
-    roll3 = random.randint(1, 12)
-    roll3 = random.randint(1, 12)
-
-
-# 4th roll
-
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
     roll4 = random.randint(1, 12)
     
-    # fourth rolls black die
+    print("Rolls: ", roll1, roll2, roll3, roll4)
 
-    roll4 = random.randint(1, 12)
-    roll4 = random.randint(1, 12)
+    
+    # Roll output for player 1
+    score_1 = score_1 + roll1 + roll2 + roll3 + roll4
+    
+    print(name_1 + "'s Total Score: " + str(score_1))
 
 # Check the die to see what it rolled and add to the count for the player
     if roll1 == 1: score_1 = score_1 + 1
