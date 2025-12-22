@@ -49,6 +49,19 @@ score_2 = 0
     
     print(name_2 + "'s Total Score: " + str(score_2))
 
+# Final score output
+print("\nGAME OVER!:")
+
+# Final scores for player 1 and 2
+game_data = {
+    "Players": [name_1, name_2],
+    "Final Scores": [score_1, score_2]
+}
+
+# Implementing pandas to clean up if statements 
+df = pd.DataFrame(game_data)
+
+print(df) 
 
 # Calculate who won 
 if score_1 > score_2:
