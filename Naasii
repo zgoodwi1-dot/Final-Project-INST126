@@ -34,7 +34,20 @@ score_2 = 0
     
     print(name_1 + "'s Total Score: " + str(score_1))
 
+# Player 2 rolls
+    input("\n" + name_2 + ", press Enter to roll!")
+    
+    roll1 = random.randint(1, 12)
+    roll2 = random.randint(1, 12)
+    roll3 = random.randint(1, 12)
+    roll4 = random.randint(1, 12)
 
+    print("Rolls: ", roll1, roll2, roll3, roll4)
+    
+    # player 2s score 
+    score_2 = score_2 + roll1 + roll2 + roll3 + roll4
+    
+    print(name_2 + "'s Total Score: " + str(score_2))
 
 
 # Calculate who won 
